@@ -8,7 +8,7 @@ inherit cmake-utils
 
 DESCRIPTION="H2O - an optimized HTTP server with support for HTTP/1.x and HTTP/2"
 HOMEPAGE="https://github.com/h2o/h2o"
-SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz"
+SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 RESTRICT="nomirror"
 
 LICENSE="MIT"
